@@ -1,0 +1,241 @@
+﻿@model Groomi_FINAL_.Models.Booking
+@{
+    ViewBag.Title = "Booking";
+}
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="margin-top:56px;">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Booking
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse.in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Email</th>
+                            <th>Date</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="allcourses"></tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Book a timeslot
+            </a>
+        </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    <h4>Booking</h4>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.NRIC, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.NRIC, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.NRIC, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Location, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Location, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Location, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Time, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Time, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Time, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Create" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+
+                <table class="table table-hover">
+
+                    <tbody>
+                        <tr><td>NRIC</td><td id="1"></td></tr>
+                        <tr><td>Email</td><td id="2"></td></tr>
+                        <tr><td>Location</td><td id="3"></td></tr>
+                        <tr><td>Date</td><td id="4"></td></tr>
+                        <tr><td>Time</td><td id="5"></td></tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+
+            updateTable();
+            function updateTable() {
+
+                $.ajax({
+                    type: "GET", // perform a GET operation to get all courses information
+                    url: "../api/BookingsAPI", // the web api controller to invoke
+                    success: function (result) { //success function that will be called if the operation is successful. All arrays of object will be found in "result"
+
+                        $('#allcourses').html("");//clear the tbody first
+                        $.each(result, function (key, value) { // $.each will iterate thru' all the objects in the returned array
+
+                            //Here we concatenate to form the tr and td and hide important information inside the html tag so that jQuery can retrieve when clicked
+                            $('#allcourses').append('<tr class="courses" num="' + key + '"><td>' + (key + 1) + '</td><td>' + value.Email + '</td><td>' + value.Date + '</td><td>' + '</td></td><td><button type="button" class="btn btn-success modifyRow" NRIC="' + value.NRIC + '">Modify</button></td><td><button type="button" class="btn btn-danger deleteRow" NRIC="' + value.NRIC + '">Delete</button></td></tr>');
+
+                        })//end of each function
+
+
+                        $("tr.courses").click(function () { //click function for individual tr wheb clicked
+
+                            var temp = $(this).attr('num'); //$(this) will only retrieve information for "that" particular row
+                            $('#1').text(result[temp].NRIC);
+                            $('#2').text(result[temp].Email);
+                            $('#3').text(result[temp].Location);
+                            $('#4').text(result[temp].Date);
+                            $('#5').text(result[temp].Time);
+                            $('#myModal').modal('show'); // activate bootstrap modal
+
+
+                        });//end of tr click function
+
+
+                        $(".deleteRow").click(function () { //click function for the delete button when clicked
+
+
+                            event.stopImmediatePropagation(); // stop event propagation, otherwise modal will be triggered as user is also clicking on the row
+                            var answer = confirm("Confirm Delete ?"); // simple javascript confirm action to check if user wanna proceed with delete
+                            if (answer) //user chooses yes
+                            {
+
+                                $.ajax({
+
+                                    type: "DELETE", // perform a DELETE operation to get all courses information
+                                    url: "../api/BookingsAPI/" + $(this).attr('NRIC'), // the web api only needs the ID for delete operation. We had previously hidden the ID in customed id called "recordID"
+                                    dataType: 'json',
+                                    success: function (result) { //success function that will be called if the DELETE operation is successful.
+
+
+                                        updateTable(); //Here we call the updateTable function to refresh the table on the fly - Ajax manner
+
+                                    }
+                                })// end ajax
+
+                            }
+
+                        });//end of delete function
+
+                        $(".modifyRow").click(function () { //click function for individual Modify button clicked
+
+
+                            event.stopImmediatePropagation(); //stop event propagation, otherwise modal will be triggered as user is also clicking on the row
+                            window.location = '../Bookings/Edit/' + $(this).attr('NRIC'); // send to the mvc edit as Edit with form validation using web api is not trivial
+
+
+
+
+                        });//end of modifyRow function
+
+
+
+
+                    }
+                })// end ajax
+
+            }//end of updateTable function
+
+            $("form").submit(function (event) { //click function when user decides to post a new course
+
+                event.preventDefault(); //stop event propagation so that form WILL NOT be submitted
+
+                $.ajax({
+                    data: $('form').serialize(), //serialize the html input tag - necessary
+                    type: "POST", // perform a POST operation to get all courses information
+                    url: "../api/BookingsAPI", // the web api controller to invoke
+                    dataType: 'json',
+                    success: function (result) { //success function that will be called if the operation is successful.
+                        updateTable(); //reuse and call the function to update table on the fly
+                        $('form')[0].reset(); // reset the form for better usuability
+                    }
+                })// end ajax
+
+            });//end of form submit function
+
+
+
+        }) //end of document ready
+    </script>
+
+}

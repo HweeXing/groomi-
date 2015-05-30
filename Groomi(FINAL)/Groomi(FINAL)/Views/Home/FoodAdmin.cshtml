@@ -1,0 +1,234 @@
+﻿@model Groomi_FINAL_.Models.Food
+@{
+    ViewBag.Title = "Foods";
+}
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="margin-top:56px;">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Foods
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse.in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Image</th>
+                            <th>Food Name</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="allcourses"></tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Create Food
+            </a>
+        </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    <h4>Food</h4>
+                    <hr />
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Logo, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Logo, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Logo, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Create" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+<!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+
+                <table class="table table-hover">
+
+                    <tbody>                        
+                        <tr><td>Name</td><td id="coursename"></td></tr>
+                        <tr><td>Description</td><td id="coursedesc"></td></tr>
+                        <tr><td>Price</td><td id="productprice"></td></tr>
+                        <tr><td><img id="coursepic" /></td></tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+
+            updateTable();
+            function updateTable() {
+                $.ajax({
+                    type: "GET", // perform a GET operation to get all courses information
+                    url: "../api/FoodsAPI", // the web api controller to invoke
+                    success: function (result) { //success function that will be called if the operation is successful. All arrays of object will be found in "result"
+
+                        $('#allcourses').html("");//clear the tbody first
+                        $.each(result, function (key, value) { // $.each will iterate thru' all the objects in the returned array
+
+                            //Here we concatenate to form the tr and td and hide important information inside the html tag so that jQuery can retrieve when clicked
+                            $('#allcourses').append('<tr class="courses" num="' + key + '"><td>' + (key + 1) + '</td><td><img style="width:100px;height:100px;" src="../Content/pic/Food/' + value.Logo + '"/></td><td>' + value.Name + '</td><td>' + '</td></td><td><button type="button" class="btn btn-success modifyRow" recordID="' + value.ID + '">Modify</button></td><td><button type="button" class="btn btn-danger deleteRow" recordID="' + value.ID + '">Delete</button></td></tr>');
+
+                        })//end of each function
+
+
+                        $("tr.courses").click(function () { //click function for individual tr wheb clicked
+
+                            var temp = $(this).attr('num'); //$(this) will only retrieve information for "that" particular row
+                            $('#coursename').text(result[temp].Name);
+                            $('#coursedesc').text(result[temp].Description);
+                            $('#productprice').text(result[temp].Price);
+                            $('#coursepic').attr('src', '../Content/pic/Food/' + result[temp].Logo);
+                            $('#myModal').modal('show'); // activate bootstrap modal
+
+
+                        });//end of tr click function
+
+
+                        $(".deleteRow").click(function () { //click function for the delete button when clicked
+
+
+                            event.stopImmediatePropagation(); // stop event propagation, otherwise modal will be triggered as user is also clicking on the row
+                            var answer = confirm("Confirm Delete ?"); // simple javascript confirm action to check if user wanna proceed with delete
+                            if (answer) //user chooses yes
+                            {
+
+                                $.ajax({
+
+                                    type: "DELETE", // perform a DELETE operation to get all courses information
+                                    url: "../api/FoodsAPI/" + $(this).attr('recordID'), // the web api only needs the ID for delete operation. We had previously hidden the ID in customed id called "recordID"
+                                    dataType: 'json',
+                                    success: function (result) { //success function that will be called if the DELETE operation is successful.
+
+
+                                        updateTable(); //Here we call the updateTable function to refresh the table on the fly - Ajax manner
+
+                                    }
+                                })// end ajax
+
+                            }
+
+                        });//end of delete function
+
+                        $(".modifyRow").click(function () { //click function for individual Modify button clicked
+
+
+                            event.stopImmediatePropagation(); //stop event propagation, otherwise modal will be triggered as user is also clicking on the row
+                            window.location = '../Foods/Edit/' + $(this).attr('recordID'); // send to the mvc edit as Edit with form validation using web api is not trivial
+
+
+
+
+                        });//end of modifyRow function
+
+
+
+
+                    }
+                })// end ajax
+            }//end of updateTable function
+
+            $("form").submit(function (event) { //click function when user decides to post a new course
+
+                event.preventDefault(); //stop event propagation so that form WILL NOT be submitted
+
+                $.ajax({
+                    data: $('form').serialize(), //serialize the html input tag - necessary
+                    type: "POST", // perform a POST operation to get all courses information
+                    url: "../api/FoodsAPI", // the web api controller to invoke
+                    dataType: 'json',
+                    success: function (result) { //success function that will be called if the operation is successful.
+                        updateTable(); //reuse and call the function to update table on the fly
+                        $('form')[0].reset(); // reset the form for better usuability
+                    }
+                })// end ajax
+
+            });//end of form submit function
+
+
+
+        }) //end of document ready
+    </script>
+
+}

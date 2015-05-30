@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+    <ul class="nav navbar-nav" style="margin-top:50px;">
+        @if (User.IsInRole("admin"))
+        {            
+            <li>@Html.ActionLink("Booking", "BookingAdmin", "Home")</li>
+            <li>@Html.ActionLink("Enquiry", "EnquiriesAdmin", "Home")</li>
+            <li>@Html.ActionLink("Food", "FoodAdmin", "Home")</li>
+            <li>@Html.ActionLink("GroomingTools", "GroomingToolsAdmin", "Home")</li>
+            <li>@Html.ActionLink("Shampoos&Conditioners", "ShampooandConditionersAdmin", "Home")</li>
+            <li>@Html.ActionLink("Toys", "ToysAdmin", "Home")</li>
+            <li>@Html.ActionLink("Treats&Biscuits", "TreatsandBiscuitsAdmin", "Home")</li>
+
+        }
+        else
+        {
+            <li>@Html.ActionLink("About", "About", "Home")</li>
+            <li>@Html.ActionLink("Booking", "Booking", "Home")</li>
+            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            <li>@Html.ActionLink("Enquiry", "Enquiries", "Home")</li>
+            <li>@Html.ActionLink("Prices", "Prices", "Home")</li>
+            <li>@Html.ActionLink("Product", "Product", "Home")</li>
+        }
+        </ul>
+
+    <ul class="nav navbar-nav navbar-right" style="margin-top:50px;">
+        <li>
+            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Manage", "Account", routeValues: null, htmlAttributes: new { title = "Manage" })
+        </li>
+        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+    </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right" style="margin-top:50px;">
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Booking", "Booking", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+        <li>@Html.ActionLink("Enquiry", "Enquiries", "Home")</li>
+        <li>@Html.ActionLink("Prices", "Prices", "Home")</li>
+        <li>@Html.ActionLink("Product", "Product", "Home")</li>
+        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

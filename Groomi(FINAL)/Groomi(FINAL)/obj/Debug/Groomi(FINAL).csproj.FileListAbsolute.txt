@@ -1,0 +1,244 @@
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).dll.config
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).pdb
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Antlr3.Runtime.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.SqlServer.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Google.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Web.Infrastructure.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Newtonsoft.Json.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Owin.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Net.Http.Formatting.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Helpers.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.WebHost.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Mvc.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Optimization.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Razor.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Deployment.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Razor.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\WebGrease.dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Helpers.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Mvc.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Optimization.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Razor.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Deployment.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Razor.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Antlr3.Runtime.pdb
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Newtonsoft.Json.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Net.Http.Formatting.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.WebHost.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.SqlServer.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Google.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).csprojResolveAssemblyReference.cache
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).dll
+c:\users\guoyi\documents\visual studio 2013\Projects\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).pdb
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).dll.config
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).pdb
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Antlr3.Runtime.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.SqlServer.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Newtonsoft.Json.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Owin.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Net.Http.Formatting.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Helpers.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.WebHost.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Mvc.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Optimization.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Razor.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\WebGrease.dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Helpers.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Mvc.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Optimization.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Razor.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Antlr3.Runtime.pdb
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Newtonsoft.Json.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Net.Http.Formatting.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.WebHost.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.SqlServer.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).csprojResolveAssemblyReference.cache
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).dll
+C:\Users\Jianzong\Desktop\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).pdb
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).dll.config
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).pdb
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Owin.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\WebGrease.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).pdb
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).dll.config
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Groomi(FINAL).pdb
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Owin.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\WebGrease.dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).dll
+C:\Users\User\Desktop\Groomi(FINAL)\Groomi(FINAL)\Groomi(FINAL)\obj\Debug\Groomi(FINAL).pdb
